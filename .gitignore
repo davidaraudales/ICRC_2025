@@ -71,5 +71,5 @@ Thumbs.db
 *.code-workspace
 
 #Files folders I want to keep
-!effective_areas/files/
-!source_calculations/files/
+!effective_areas/files/**
+!source_calculations/files/**
