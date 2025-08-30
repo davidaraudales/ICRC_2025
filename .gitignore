@@ -1,0 +1,75 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+*.pkl
+*.log
+
+# Virtual environments
+.venv/
+env/
+venv/
+*.env
+
+# -------------------------
+# Jupyter
+# -------------------------
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# -------------------------
+# Data & Results
+# -------------------------
+# Common numerical/data formats
+*.npz
+*.npy
+*.csv
+*.tsv
+*.dat
+*.h5
+*.hdf5
+*.fits
+*.parquet
+*.mat
+*.pdb
+*.txt
+
+# Large physics/astro outputs
+*.root
+*.lhe
+*.hepmc
+
+# -------------------------
+# Figures & Plots
+# -------------------------
+# Ignore large generated plots, but keep those in docs/
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.bmp
+*.gif
+*.pdf
+!docs/**/*.pdf   # keep PDFs under docs/
+
+# -------------------------
+# OS / IDE / Editors
+# -------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+.vscode/
+.idea/
+*.code-workspace
+
+#Files folders I want to keep
+!effective_areas/files/
+!source_calculations/files/
